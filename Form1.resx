@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="button2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="button2.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>835, 12</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="button1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>874, 11</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="button11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="button11.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="button11.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="button11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>911, 11</value>
+  </data>
+  <data name="button11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 30</value>
+  </data>
+  <data name="button11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;button11.Name" xml:space="preserve">
+    <value>button11</value>
+  </data>
+  <data name="&gt;&gt;button11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button11.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>953, 49</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="accordionControlElement8.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement8.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement8.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement8.Text" xml:space="preserve">
+    <value>Giriş</value>
+  </data>
+  <data name="anasayfa.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="anasayfa.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="anasayfa.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="anasayfa.Text" xml:space="preserve">
+    <value>Anasayfa</value>
+  </data>
+  <data name="kitap.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="kitap.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="kitap.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="kitap.Text" xml:space="preserve">
+    <value>Kitap İşlemleri</value>
+  </data>
+  <data name="uye.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="uye.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="uye.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="uye.Text" xml:space="preserve">
+    <value>Üye İşlemleri</value>
+  </data>
+  <data name="accordionControlElement3.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement3.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement3.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="emanet.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="emanet.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="emanet.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="emanet.Text" xml:space="preserve">
+    <value>Emanet Ver</value>
+  </data>
+  <data name="accordionControlElement4.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement4.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement4.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement4.Text" xml:space="preserve">
+    <value>Emanet Al</value>
+  </data>
+  <data name="accordionControlElement3.Text" xml:space="preserve">
+    <value>Emanet İşlemleri</value>
+  </data>
+  <data name="accordionControlElement5.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement5.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement5.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement6.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement6.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement6.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement6.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAA90RVh0VGl0bGUAQm9vaztSZWFky8MmvQAAAKlJREFUWEfN1kEKgDAMRFHv1At4
+        Gu9/g4ggxcXXsaOJLh6WGOhfdoqIT+GwEg4r4bASDivhsFI/tNbCMO/o36WzgO171/Hi7Uw7Z14JeEIG
+        LDe5+zIgmwygeuLuy4BsMoDqibsvA7LJAKon7r4MyCYDqJ64+zIgmwygeuLuy4BsMoDqibsvA7LJAKon
+        7r4MyPbfgFGvvglHPXkT9nv74Ss4rITDSjisE9MKPszTHce+GTgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="accordionControlElement6.Text" xml:space="preserve">
+    <value>Kitap Barkod</value>
+  </data>
+  <data name="accordionControlElement7.Appearance.Hovered.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement7.Appearance.Normal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement7.Appearance.Pressed.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 15pt, style=Bold</value>
+  </data>
+  <data name="accordionControlElement7.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="accordionControlElement7.Text" xml:space="preserve">
+    <value>Üye Barkod</value>
+  </data>
+  <data name="accordionControlElement5.Text" xml:space="preserve">
+    <value>Barkod</value>
+  </data>
+  <data name="accordionControlElement1.Text" xml:space="preserve">
+    <value>Cikis</value>
+  </data>
+  <data name="accordionControl1.Appearance.AccordionControl.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>20, 20, 20</value>
+  </data>
+  <data name="accordionControl1.Appearance.Hint.BackColor2" type="System.Drawing.Color, System.Drawing">
+    <value>20, 20, 20</value>
+  </data>
+  <data name="accordionControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="accordionControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="accordionControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 600</value>
+  </data>
+  <data name="accordionControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="accordionControl1.Text" xml:space="preserve">
+    <value>accordionControl1</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.Name" xml:space="preserve">
+    <value>accordionControl1</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControl, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;accordionControl1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="accordionControlElement2.Text" xml:space="preserve">
+    <value>Element2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1009, 600</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement1.Name" xml:space="preserve">
+    <value>accordionControlElement1</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement1.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement8.Name" xml:space="preserve">
+    <value>accordionControlElement8</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement8.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;anasayfa.Name" xml:space="preserve">
+    <value>anasayfa</value>
+  </data>
+  <data name="&gt;&gt;anasayfa.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;kitap.Name" xml:space="preserve">
+    <value>kitap</value>
+  </data>
+  <data name="&gt;&gt;kitap.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;uye.Name" xml:space="preserve">
+    <value>uye</value>
+  </data>
+  <data name="&gt;&gt;uye.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement3.Name" xml:space="preserve">
+    <value>accordionControlElement3</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement3.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;emanet.Name" xml:space="preserve">
+    <value>emanet</value>
+  </data>
+  <data name="&gt;&gt;emanet.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement4.Name" xml:space="preserve">
+    <value>accordionControlElement4</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement4.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement5.Name" xml:space="preserve">
+    <value>accordionControlElement5</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement5.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement6.Name" xml:space="preserve">
+    <value>accordionControlElement6</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement6.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement7.Name" xml:space="preserve">
+    <value>accordionControlElement7</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement7.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement2.Name" xml:space="preserve">
+    <value>accordionControlElement2</value>
+  </data>
+  <data name="&gt;&gt;accordionControlElement2.Type" xml:space="preserve">
+    <value>DevExpress.XtraBars.Navigation.AccordionControlElement, DevExpress.XtraBars.v20.1, Version=20.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
